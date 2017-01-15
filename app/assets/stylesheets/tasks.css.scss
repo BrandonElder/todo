@@ -25,6 +25,7 @@ button {
   -moz-osx-font-smoothing: grayscale;
 }
 
+
 body {
   font: 14px 'Helvetica Neue', Helvetica, Arial, sans-serif;
   line-height: 1.4em;
@@ -354,6 +355,12 @@ html .clear-completed:active {
 
 .author a {
   color:#b83f45;
+  text-decoration: none;
+}
+
+.author a:hover {
+  text-decoration: none;
+  color: grey;
 }
 
 
